@@ -6,6 +6,7 @@ import ProjectOverview from './Components/ProjectOverveiw'
 import TaskDashboard from './Components/TaskDashboard'
 import Calendar from './Components/Calendar'
 import Projectpage from './Components/Projectpage'
+import Payroll from './Components/Payroll'
 
 function App() {
   return (
@@ -28,6 +29,8 @@ function App() {
             
             {/* Reports/Project Dashboard route */}
             <Route path="/reports" element={<ProjectDashboard />} />
+            
+            <Route path="/payroll" element={<Payroll />} />
             
             {/* Settings/Project page route */}
             <Route path="/settings" element={<Projectpage />} />

@@ -1,0 +1,179 @@
+.page1-container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #ffffff; /* White background */
+  color: #333; /* Default text color */
+}
+
+/* Cards Section */
+.cards-section {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 cards per row */
+  gap: 20px; /* Spacing between cards */
+  width: 100%; /* Full width of the screen */
+  margin-bottom: 30px; /* Spacing below cards */
+}
+
+.card {
+  text-align: center;
+  background-color: #f9f9f9; /* Light gray background for cards */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  height: 120px; /* Adjust height as per screenshot */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card h3 {
+  color: #000000; /* Black for headings */
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card .number {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Number Colors */
+.blue {
+  color: #3498db; /* Blue */
+}
+
+.red {
+  color: #e74c3c; /* Red */
+}
+
+.orange {
+  color: #e67e22; /* Orange */
+}
+
+.green {
+  color: #27ae60; /* Green */
+}
+
+.purple {
+  color: #9b59b6; /* Purple */
+}
+
+.teal {
+  color: #1abc9c; /* Teal */
+}
+
+.pink {
+  color: #e91e63; /* Pink */
+}
+
+.gray {
+  color: #7f8c8d; /* Gray */
+}
+
+/* Manage Payroll Options Section */
+.payroll-options-section {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.payroll-options-section h4 {
+  color: #000000; /* Black for heading */
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.options {
+  display: flex;
+  gap: 15px; /* Spacing between options */
+  justify-content: flex-start; /* Align options to the left */
+}
+
+.option {
+  text-align: center;
+  padding: 15px 20px; /* Padding for options */
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+  border: 2px solid transparent; /* Transparent border */
+}
+
+.option:hover {
+  transform: translateY(-5px); /* Slight lift on hover */
+}
+
+.view-details {
+  background-color: #aed6f1; /* Light blue */
+  color: #1a5276; /* Darker text for contrast */
+  border-color: #85c1e9; /* Light blue border */
+}
+
+.edit-records {
+  background-color: #f8c471; /* Light orange */
+  color: #9c640c; /* Darker text for contrast */
+  border-color: #f5b041; /* Light orange border */
+}
+
+.generate-report {
+  background-color: #a9dfbf; /* Light green */
+  color: #1e8449; /* Darker text for contrast */
+  border-color: #82e0aa; /* Light green border */
+}
+
+.settings {
+  background-color: #d2b4de; /* Light purple */
+  color: #6c3483; /* Darker text for contrast */
+  border-color: #bb8fce; /* Light purple border */
+}
+
+/* Select Options Section */
+.select-options-section {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.select-options-section h4 {
+  color: #000000; /* Black for heading */
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.dropdowns {
+  display: flex;
+  gap: 40px; /* Increased margin between dropdowns */
+}
+
+.dropdown-group {
+  flex: 1;
+}
+
+.dropdown-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333; /* Dark gray for labels */
+  font-weight: bold;
+  font-size: 14px; /* Smaller text */
+}
+
+.dropdown-group select {
+  width: 100%;
+  padding: 10px;
+  background-color: #f9f9f9; /* Light gray background */
+  border: none; /* No border */
+  border-radius: 8px;
+  appearance: none; /* Remove default arrow */
+  -webkit-appearance: none; /* Remove default arrow for Safari */
+  -moz-appearance: none; /* Remove default arrow for Firefox */
+  background-image: url("data:image/svg+xml;charset=US-ASCII,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='6'><polygon fill='%23333333' points='0,0 10,0 5,6'/></svg>"); /* Custom arrow */
+  background-repeat: no-repeat;
+  background-position: right 10px center; /* Position arrow */
+  background-size: 10px 6px; /* Size of arrow */
+  cursor: pointer;
+  font-size: 14px; /* Smaller text */
+  box-shadow: none; /* Remove blur/shadow */
+}
+
+.dropdown-group select:hover {
+  background-color: #f0f0f0; /* Slightly darker on hover */
+}

@@ -1,0 +1,180 @@
+/* Page 2 Container */
+.page2-container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #ffffff; /* White background */
+  color: #333; /* Default text color */
+}
+
+/* Navbar */
+.page2-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.page2-navbar-left h2 {
+  color: #000000; /* Black for heading */
+  font-weight: bold;
+}
+
+.page2-navbar-right {
+  display: flex;
+  gap: 15px; /* Spacing between buttons */
+}
+
+.page2-nav-btn {
+  padding: 10px 20px;
+  border-radius: 20px; /* Oval border */
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.page2-nav-btn:hover {
+  transform: translateY(-3px); /* Slight lift on hover */
+}
+
+.page2-home {
+  background-color: #aed6f1; /* Light blue */
+  color: #1a5276; /* Dark blue text */
+}
+
+.page2-settings {
+  background-color: #f8c471; /* Light orange */
+  color: #9c640c; /* Dark orange text */
+}
+
+.page2-logout {
+  background-color: #a9dfbf; /* Light green */
+  color: #1e8449; /* Dark green text */
+}
+
+/* Cards Section */
+.page2-cards-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  gap: 20px; /* Spacing between cards */
+}
+
+.page2-card {
+  background-color: #ffffff; /* White background */
+  padding: 20px;
+  border-radius: 16px; /* Increased border radius */
+  text-align: left; /* Align text to the left */
+  color: #000000; /* Black text */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.page2-card h3 {
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #000000; /* Black text */
+}
+
+.page2-card .page2-number {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #000000; /* Black text */
+}
+
+.page2-card .page2-status {
+  font-size: 14px;
+  color: #666666; /* Gray for status */
+  margin-bottom: 10px;
+}
+
+.page2-download-btn {
+  padding: 8px 16px;
+  background-color: #d2b4de; /* Light purple background */
+  color: #6c3483; /* Dark purple text */
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.page2-download-btn:hover {
+  background-color: #bb8fce; /* Slightly darker purple on hover */
+  transform: translateY(-3px); /* Slight lift on hover */
+}
+
+/* Employee Details Section */
+.employee-details-section {
+  margin-top: 30px;
+}
+
+.employee-details-section h3 {
+  color: #000000; /* Black for heading */
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.employee-details-card {
+  background-color: #ffffff; /* White background */
+  padding: 20px;
+  border-radius: 16px; /* Increased border radius */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.employee-details-header {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #cccccc; /* Light gray line */
+}
+
+.employee-details-header span {
+  flex: 1;
+  text-align: left;
+}
+
+.employee-details-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #cccccc; /* Light gray line */
+}
+
+.employee-details-row span {
+  flex: 1;
+  text-align: left;
+}
+
+.employee-download-btn {
+  padding: 8px 16px;
+  background-color: #aed6f1; /* Light blue background */
+  color: #1a5276; /* Dark blue text */
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.employee-download-btn:hover {
+  background-color: #85c1e9; /* Slightly darker blue on hover */
+  transform: translateY(-3px); /* Slight lift on hover */
+}
+
+.download-all-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #d2b4de; /* Light purple background */
+  color: #6c3483; /* Dark purple text */
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.download-all-btn:hover {
+  background-color: #bb8fce; /* Slightly darker purple on hover */
+  transform: translateY(-3px); /* Slight lift on hover */
+}
