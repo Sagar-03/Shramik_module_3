@@ -8,6 +8,8 @@ import ProjectDashboard from './ProjectDashboard'; // Replace with your actual c
 import CalendarView from './Calendar'; // Replace with your actual component
 import TeamView from './ProjectOverveiw'; // Replace with your actual component
 import SettingsView from './Projectpage'; // Replace with your actual component
+import Payroll from './Payroll';
+
 
 const Dashboard = () => {
   const [showPopup, setShowPopup] = useState(false);
@@ -199,7 +201,7 @@ const Dashboard = () => {
   );
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div >
     {/* Left Sidebar */}
     <div className="fixed left-0 top-0 h-full w-16 bg-[#1a2233] flex flex-col items-center py-8">
       {/* Navigation Icons - Increased spacing from space-y-5 to space-y-8 */}
@@ -216,6 +218,12 @@ const Dashboard = () => {
         <Link to="/reports">
           <ChartPie className="w-6 h-6 mt-8 text-white hover:text-gray-300 cursor-pointer" />
         </Link>
+      
+        <Link to="/payroll">
+        <CheckCircle className="w-6 h-6 mt-8 text-white hover:text-gray-300 cursor-pointer" />
+         </Link>
+
+        
         <button 
           onClick={() => setShowPopup(true)}
           className="w-8 h-8 rounded-lg mt-8 bg-white/10 flex items-center justify-center hover:bg-white/20"
@@ -243,6 +251,7 @@ const Dashboard = () => {
           <Route path="/calendar" element={<CalendarView />} />
           <Route path="/team" element={<TeamView />} />
           <Route path="/reports" element={<ProjectDashboard />} />
+        
           <Route path="/settings" element={<SettingsView />} />
         </Routes>
       </div>
